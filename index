@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8" />
+  <title>Funerales Santa Paz | Casa funeraria en Guadalajara, Jalisco</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Funerales Santa Paz en Guadalajara. Atención 24 horas, ceremonias tradicionales, cremación sencilla y memoriales personalizados para honrar a sus seres queridos."
+  />
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #222;
+      background-color: #f7f7f7;
+    }
+    header {
+      background-color: #1a2942;
+      color: #fff;
+      padding: 10px 20px;
+    }
+    header .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.9rem;
+    }
+    header .logo {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    nav {
+      margin-top: 10px;
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background-color: #e6ecf5;
+      padding: 30px 20px;
+    }
+    .hero-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+      gap: 20px;
+      align-items: center;
+    }
+    .hero h1 {
+      margin-top: 0;
+      font-size: 2rem;
+      color: #1a2942;
+    }
+    .hero p {
+      margin: 5px 0;
+    }
+    .hero .phone {
+      font-size: 1.3rem;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    .hero .tagline {
+      margin-top: 15px;
+      font-style: italic;
+      color: #444;
+    }
+    .hero-card {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 6px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+      font-size: 0.9rem;
+    }
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 30px 20px 50px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      color: #1a2942;
+      margin-bottom: 10px;
+    }
+    h3 {
+      color: #1a2942;
+      margin-bottom: 6px;
+    }
+    .two-col {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background-color: #fff;
+      border-radius: 6px;
+      padding: 15px 18px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      font-size: 0.95rem;
+    }
+    ul {
+      padding-left: 18px;
+    }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+    .service-price {
+      font-weight: bold;
+      margin-top: 8px;
+    }
+    .highlight {
+      font-weight: bold;
+      color: #1a2942;
+    }
+    .hours-list {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+    }
+    .hours-list li {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #eee;
+      padding: 4px 0;
+      font-size: 0.95rem;
+    }
+    .faq-item {
+      margin-bottom: 15px;
+    }
+    .faq-item h4 {
+      margin: 0 0 5px;
+      color: #1a2942;
+      font-size: 1rem;
+    }
+    .reviews-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+    .review-name {
+      font-weight: bold;
+      margin-bottom: 2px;
+    }
+    .review-date {
+      font-size: 0.8rem;
+      color: #777;
+      margin-bottom: 6px;
+    }
+    footer {
+      background-color: #101828;
+      color: #ddd;
+      font-size: 0.85rem;
+      padding: 20px;
+      margin-top: 20px;
+    }
+    footer .footer-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    footer a {
+      color: #ddd;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 700px) {
+      .hero-inner {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="top-bar">
+    <div class="logo">Funerales Santa Paz</div>
+    <div>Atención 24 horas • Tel: <strong>33 1234 5678</strong></div>
+  </div>
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#sobre-nosotros">Sobre nosotros</a>
+    <a href="#servicios">Nuestros servicios</a>
+    <a href="#ubicacion">Dónde estamos</a>
+    <a href="#apoyo">Guías y apoyo</a>
+    <a href="#faq">Preguntas frecuentes</a>
+    <a href="#opiniones">Opiniones</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<section class="hero" id="inicio">
+  <div class="hero-inner">
+    <div>
+      <h1>Funerales Santa Paz – Guadalajara</h1>
+      <p><strong>Casa funeraria en Guadalajara, Jalisco</strong></p>
+      <p>Calle Serenidad 123, Colonia Centro, Guadalajara, Jalisco, C.P. 44100</p>
+      <p class="phone">Teléfono 24/7: 33 1234 5678</p>
+      <p class="tagline">
+        Acompañamos a su familia con respeto, calidez y total dedicación en cada detalle del servicio funerario.
+      </p>
+    </div>
+    <div class="hero-card">
+      <h3>Estamos para usted</h3>
+      <p>Puede llamarnos en cualquier momento del día o de la noche. Uno de nuestros asesores
+        funerarios le orientará paso a paso, desde los trámites legales hasta la ceremonia.</p>
+      <ul>
+        <li>Atención inmediata en domicilio, hospital o clínica</li>
+        <li>Traslado del ser querido al velatorio</li>
+        <li>Asesoría sobre acta y certificado de defunción</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<main>
+  <!-- SOBRE NOSOTROS -->
+  <section id="sobre-nosotros">
+    <h2>Sobre nuestra casa funeraria en Guadalajara</h2>
+    <div class="two-col">
+      <div>
+        <p>
+          En <span class="highlight">Funerales Santa Paz</span> servimos a las familias de Guadalajara y la región
+          con servicios funerarios organizados con el máximo cuidado y dignidad. Sabemos que este es un momento
+          difícil, por lo que nos encargamos de todos los detalles para que usted pueda concentrarse en despedirse
+          de su ser querido.
+        </p>
+        <p>
+          Nuestro equipo se toma el tiempo de conocer a cada familia y las tradiciones que desea respetar.
+          Podemos organizar ceremonias religiosas o laicas, velaciones íntimas o servicios más amplios, según sus necesidades.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Nuestras instalaciones</h3>
+        <p>Contamos con:</p>
+        <ul>
+          <li>Dos capillas de velación cómodas y privadas</li>
+          <li>Área de descanso para la familia</li>
+          <li>Acceso para personas con movilidad reducida</li>
+          <li>Estacionamiento para visitantes</li>
+        </ul>
+        <p>Si lo desea, puede visitar nuestras instalaciones antes de contratar un servicio.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUÉ OFRECEMOS -->
+  <section>
+    <h2>Qué le ofrecemos</h2>
+    <div class="two-col">
+      <div class="card">
+        <ul>
+          <li>Orientación y asesoría en cada etapa del proceso</li>
+          <li>Organización de velación, misa o ceremonia de despedida</li>
+          <li>Servicios de cremación o inhumación en panteones locales</li>
+          <li>Atención a diferentes creencias, ritos y costumbres</li>
+          <li>Traslados locales y foráneos (según disponibilidad)</li>
+          <li>Opción de planes de previsión funeraria</li>
+        </ul>
+      </div>
+      <div class="card">
+        <p>
+          Nuestro compromiso es tratar a su familia y a su ser querido con el mismo respeto con el que trataríamos a los nuestros.
+          Nos esforzamos por que cada ceremonia sea un homenaje auténtico a la vida que se recuerda.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- NUESTROS SERVICIOS -->
+  <section id="servicios">
+    <h2>Nuestros servicios funerarios</h2>
+    <p>Podemos adaptar el servicio de acuerdo con lo que tenga en mente para la despedida de su ser querido.</p>
+
+    <div class="services-grid">
+      <div class="card">
+        <h3>Servicio con ceremonia</h3>
+        <p>
+          Incluye el cuidado de su ser querido, ataúd de línea clásica, uso de capilla de velación y ceremonia
+          en el lugar que usted elija (capilla, templo o sala de servicios), seguida de cremación o inhumación.
+        </p>
+        <p class="service-price">Desde: $XX,XXX MXN*</p>
+        <p style="font-size:0.85rem;">*El precio final depende de los servicios adicionales y el panteón elegido.</p>
+      </div>
+      <div class="card">
+        <h3>Cremación sencilla sin ceremonia</h3>
+        <p>
+          Opción para quienes prefieren una despedida más discreta. Incluye la recolección y el cuidado del cuerpo,
+          cremación sin servicio público y entrega de las cenizas a la familia.
+        </p>
+        <p class="service-price">Desde: $XX,XXX MXN*</p>
+        <p style="font-size:0.85rem;">*Ideal para familias que realizarán una ceremonia privada en otro momento.</p>
+      </div>
+      <div class="card">
+        <h3>Memoriales y recordatorios</h3>
+        <p>
+          Le ayudamos a crear un recuerdo duradero: urnas, placas, arreglos florales, libros de condolencias
+          y opciones personalizadas como fotografías, velas decorativas y recuerdos para la familia.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- UBICACIÓN Y HORARIOS -->
+  <section id="ubicacion">
+    <h2>Dónde encontrarnos</h2>
+    <div class="two-col">
+      <div class="card">
+        <h3>Dirección</h3>
+        <p><strong>Funerales Santa Paz</strong></p>
+        <p>Calle Serenidad 123<br />
+           Colonia Centro<br />
+           Guadalajara, Jalisco, C.P. 44100</p>
+        <p><strong>Teléfono:</strong> 33 1234 5678</p>
+        <p><strong>Atención telefónica:</strong> 24 horas, todos los días del año.</p>
+      </div>
+      <div class="card">
+        <h3>Horarios de oficina</h3>
+        <ul class="hours-list">
+          <li><span>Lunes</span><span>09:00 – 18:00</span></li>
+          <li><span>Martes</span><span>09:00 – 18:00</span></li>
+          <li><span>Miércoles</span><span>09:00 – 18:00</span></li>
+          <li><span>Jueves</span><span>09:00 – 18:00</span></li>
+          <li><span>Viernes</span><span>09:00 – 18:00</span></li>
+          <li><span>Sábado</span><span>10:00 – 14:00</span></li>
+          <li><span>Domingo</span><span>Cerrado (atención telefónica 24/7)</span></li>
+        </ul>
+        <p style="margin-top:8px;font-size:0.9rem;">
+          Nos encontramos a una cuadra del Mercado Municipal. Contamos con estacionamiento propio para nuestros visitantes.
+        </p>
+      </div>
+    </div>
+    <!-- Aquí podrías incrustar un mapa de Google Maps -->
+  </section>
+
+  <!-- APOYO Y GUÍAS -->
+  <section id="apoyo">
+    <h2>Guías y apoyo en el proceso</h2>
+    <div class="two-col">
+      <div class="card">
+        <h3>Qué hacer cuando alguien fallece</h3>
+        <p>
+          Es normal no saber por dónde empezar. Le orientamos sobre los pasos básicos, como la certificación del fallecimiento,
+          la obtención del acta de defunción y los trámites ante el Registro Civil y el panteón.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Cómo organizar un funeral</h3>
+        <p>
+          Le apoyamos para definir el tipo de servicio, música, lecturas, flores y cualquier detalle que haga la despedida
+          significativa para su familia.
+        </p>
+      </div>
+      <div class="card">
+        <h3>El día del servicio</h3>
+        <p>
+          Nuestro equipo coordina el cortejo, la ceremonia y el traslado final, manteniéndole informado en todo momento
+          para que todo se lleve a cabo con calma y respeto.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PREGUNTAS FRECUENTES -->
+  <section id="faq">
+    <h2>Preguntas frecuentes</h2>
+
+    <div class="faq-item">
+      <h4>¿Qué hago primero cuando fallece un ser querido?</h4>
+      <p>
+        Si el fallecimiento ocurre en casa, hospital o clínica, comuníquese con el médico o la institución de salud
+        para la certificación de defunción. Después puede llamarnos y le guiaremos con los siguientes pasos
+        y la recolección del cuerpo.
+      </p>
+    </div>
+
+    <div class="faq-item">
+      <h4>¿Necesito una cita para ir a la funeraria?</h4>
+      <p>
+        Puede visitarnos sin cita dentro de nuestros horarios de oficina. Sin embargo, le recomendamos agendar
+        una cita previa para asegurar que uno de nuestros asesores pueda dedicarle el tiempo que necesita.
+      </p>
+    </div>
+
+    <div class="faq-item">
+      <h4>¿Cómo funcionan los costos adicionales?</h4>
+      <p>
+        Además del servicio funerario, existen cargos de terceros como panteones, crematorios o trámites
+        gubernamentales. Nosotros podemos gestionarlos por usted y presentarle un presupuesto claro y detallado.
+      </p>
+    </div>
+
+    <div class="faq-item">
+      <h4>¿Ofrecen planes de previsión funeraria?</h4>
+      <p>
+        Sí. Contamos con planes de previsión que le permiten dejar su servicio organizado y pagado por anticipado,
+        de acuerdo con sus preferencias y presupuesto.
+      </p>
+    </div>
+
+    <div class="faq-item">
+      <h4>¿Atienden diferentes religiones o creencias?</h4>
+      <p>
+        Respetamos las tradiciones de cada familia. Podemos adaptar el servicio a ceremonias católicas,
+        cristianas, laicas u otras, siempre en diálogo con usted y su comunidad.
+      </p>
+    </div>
+  </section>
+
+  <!-- OPINIONES -->
+  <section id="opiniones">
+    <h2>Opiniones de las familias</h2>
+    <div class="reviews-list">
+      <div class="card">
+        <div class="review-name">María López</div>
+        <div class="review-date">Abril 2025</div>
+        <p>
+          “Agradezco muchísimo el trato humano que recibimos. Nos explicaron todo con paciencia y el servicio
+          fue exactamente como mi mamá lo hubiera querido.”
+        </p>
+      </div>
+      <div class="card">
+        <div class="review-name">Familia Hernández Gómez</div>
+        <div class="review-date">Febrero 2025</div>
+        <p>
+          “Desde la primera llamada nos sentimos acompañados. El personal siempre fue respetuoso y atento
+          a cada detalle durante la velación y la misa.”
+        </p>
+      </div>
+      <div class="card">
+        <div class="review-name">Juan Carlos Rivera</div>
+        <div class="review-date">Octubre 2024</div>
+        <p>
+          “Nos apoyaron con los trámites y se encargaron de todo el traslado. La ceremonia fue muy digna
+          y la familia se sintió en paz.”
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <div class="two-col">
+      <div class="card">
+        <p><strong>Teléfono 24/7:</strong> 33 1234 5678</p>
+        <p><strong>WhatsApp:</strong> +52 1 33 1234 5678</p>
+        <p><strong>Correo electrónico:</strong> contacto@funeralesantapaz.mx</p>
+        <p><strong>Dirección:</strong> Calle Serenidad 123, Col. Centro, Guadalajara, Jal.</p>
+      </div>
+      <div class="card">
+        <h3>Envíenos un mensaje</h3>
+        <p style="font-size:0.9rem;">(Ejemplo de formulario para integrar más adelante)</p>
+        <ul>
+          <li>Nombre completo</li>
+          <li>Teléfono de contacto</li>
+          <li>Correo electrónico</li>
+          <li>Comentarios o dudas</li>
+        </ul>
+        <p style="font-size:0.9rem;">Su mensaje será atendido por un asesor funerario lo antes posible.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div>
+      <strong>Funerales Santa Paz</strong><br />
+      Calle Serenidad 123, Col. Centro<br />
+      Guadalajara, Jalisco, México<br />
+      Tel: 33 1234 5678
+    </div>
+    <div>
+      <strong>Información legal</strong><br />
+      <a href="#!">Aviso de privacidad</a><br />
+      <a href="#!">Términos y condiciones</a><br />
+      <a href="#!">Política de cookies</a>
+    </div>
+    <div>
+      <strong>Síganos</strong><br />
+      <a href="#!">Facebook</a><br />
+      <a href="#!">Instagram</a><br />
+      <a href="#!">WhatsApp</a>
+    </div>
+  </div>
+  <p style="margin-top:15px; text-align:center;">
+    © 2025 Funerales Santa Paz. Todos los derechos reservados.
+  </p>
+</footer>
+
+</body>
+</html>
