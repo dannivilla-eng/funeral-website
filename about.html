@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sobre nosotros | [NOMBRE FUNERARIA] en [CIUDAD, ESTADO]</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="[NOMBRE FUNERARIA] en [CIUDAD, ESTADO]. Casa funeraria dedicada a acompañar a las familias con respeto, calidez y profesionalismo en todo el proceso funerario."
+  />
+  <style>
+    :root {
+      --primary: #1a2942;
+      --accent: #c9a96a;
+      --bg: #f6f6f8;
+      --card-bg: #ffffff;
+      --text: #222222;
+      --muted: #6c6c6c;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    header {
+      background-color: var(--primary);
+      color: #ffffff;
+      padding: 16px 20px;
+    }
+
+    header .brand {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    header .brand-name {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+    header .brand-contact {
+      font-size: 0.9rem;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 30px 20px 60px;
+    }
+
+    h1, h2, h3, h4 {
+      color: var(--primary);
+      margin-top: 0;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    .section-intro {
+      background-color: #e8ecf2;
+      border-radius: 8px;
+      padding: 20px 20px 22px;
+      margin-bottom: 35px;
+    }
+
+    .section-intro h1 {
+      margin-bottom: 8px;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: minmax(0, 2fr) minmax(0, 1.4fr);
+      gap: 24px;
+    }
+
+    .grid-2--equal {
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+
+    .card {
+      background-color: var(--card-bg);
+      border-radius: 8px;
+      padding: 16px 18px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.06);
+      font-size: 0.95rem;
+    }
+
+    .muted {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    ul {
+      padding-left: 18px;
+      margin: 8px 0 0;
+    }
+
+    .list-unstyled {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .highlight-stat {
+      font-size: 2.0rem;
+      font-weight: bold;
+      color: var(--primary);
+      margin-bottom: 4px;
+    }
+
+    .tagline {
+      font-style: italic;
+      color: var(--muted);
+    }
+
+    .hours-list li {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #ececec;
+      padding: 4px 0;
+      font-size: 0.9rem;
+    }
+
+    .faq-item {
+      margin-bottom: 18px;
+    }
+
+    .faq-item h4 {
+      margin: 0 0 6px;
+      font-size: 1rem;
+    }
+
+    .reviews-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 18px;
+    }
+
+    .review-name {
+      font-weight: bold;
+      margin-bottom: 2px;
+    }
+
+    .review-date {
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      font-size: 0.8rem;
+      border-radius: 999px;
+      background-color: var(--accent);
+      color: #fff;
+      margin-left: 6px;
+    }
+
+    @media (max-width: 768px) {
+      .grid-2 {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <div class="brand-name">[NOMBRE FUNERARIA]</div>
+    <div class="brand-contact">
+      [DIRECCIÓN CORTA, CIUDAD, ESTADO] · Teléfono 24 horas: <strong>[TELÉFONO PRINCIPAL]</strong>
+    </div>
+  </div>
+</header>
+
+<main id="about">
+  <!-- INTRO / ABOUT -->
+  <section class="section-intro">
+    <h1>Sobre nuestro hogar funerario en [CIUDAD]</h1>
+    <p>
+      En <strong>[NOMBRE FUNERARIA]</strong> acompañamos a las familias de [CIUDAD] y alrededores en uno de los momentos más delicados
+      de la vida. Nuestro compromiso es ofrecer servicios funerarios organizados con respeto, calidez y profesionalismo,
+      cuidando cada detalle para honrar la memoria de su ser querido.
+    </p>
+    <p>
+      Formamos parte de la comunidad local y colaboramos con diversas instituciones, parroquias y organizaciones de apoyo,
+      ofreciendo nuestra ayuda cuando se necesita. Nuestro equipo se toma el tiempo de escucharle, comprender sus deseos
+      y ofrecer alternativas que se ajusten a sus tradiciones, creencias y presupuesto.
+    </p>
+  </section>
+
+  <section>
+    <div class="grid-2">
+      <div>
+        <h2>Un equipo que le acompaña en cada paso</h2>
+        <p>
+          Desde el primer contacto, uno de nuestros asesores funerarios le explicará con claridad qué pasos hay que seguir,
+          incluyendo los trámites legales básicos, la organización de la velación, la ceremonia de despedida y la cremación
+          o inhumación.
+        </p>
+        <p>
+          Sabemos que cada familia vive el duelo de manera diferente. Por eso, diseñamos ceremonias personalizadas:
+          velaciones íntimas o servicios más amplios, ceremonias religiosas o laicas, música especial, fotografías,
+          mensajes de despedida y cualquier detalle que haga la ceremonia verdaderamente significativa.
+        </p>
+        <p class="tagline">
+          Nuestro objetivo es que usted se sienta acompañado y seguro, sabiendo que todo está siendo atendido con cuidado.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Nuestras instalaciones</h3>
+        <p>
+          Nuestro hogar funerario está pensado para ofrecer un espacio tranquilo y acogedor a las familias:
+        </p>
+        <ul>
+          <li>Capillas de velación cómodas y privadas</li>
+          <li>Área de descanso para familiares y amigos</li>
+          <li>Acceso para personas con movilidad reducida</li>
+          <li>Espacio para música, proyecciones y recuerdos</li>
+          <li>Estacionamiento cercano para visitantes</li>
+        </ul>
+        <p class="muted">
+          Puede visitarnos para conocer las instalaciones antes de contratar un servicio, con gusto le atenderemos.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT WE OFFER -->
+  <section>
+    <h2>Lo que le ofrecemos</h2>
+    <div class="grid-2 grid-2--equal">
+      <div class="card">
+        <ul>
+          <li>Orientación clara sobre qué hacer cuando fallece un ser querido</li>
+          <li>Servicios ajustados a las necesidades y presupuesto de su familia</li>
+          <li>Conocimiento local de iglesias, panteones y crematorios en [CIUDAD]</li>
+          <li>Organización de cremación o inhumación en distintos cementerios</li>
+          <li>Atención a diferentes religiones, creencias y costumbres</li>
+          <li>Opción de ver y despedirse de su ser querido en la capilla de descanso</li>
+          <li>Carroza fúnebre, vehículos para acompañantes y traslados especiales</li>
+          <li>Asesoría en memoriales, placas, urnas y recordatorios</li>
+          <li>Planes de previsión funeraria para dejar todo organizado con anticipación</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Servicio con distinción</h3>
+        <p>
+          Nuestro equipo está formado por personal con experiencia, capacitado para ofrecer un trato digno y humano en todo momento.
+          Trabajamos con procesos claros y transparentes para que usted sepa siempre qué se está haciendo y cuáles son los costos
+          involucrados.
+        </p>
+        <p>
+          La mayoría de las familias que nos eligen destacan nuestra cercanía, el respeto con el que tratamos a sus seres queridos
+          y el cuidado que ponemos en cada detalle del servicio.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section>
+    <h2>Nuestros servicios funerarios</h2>
+    <p>
+      Contamos con paquetes pensados para diferentes tipos de despedida. Siempre podemos ajustarlos a lo que usted tiene en mente.
+    </p>
+
+    <div class="grid-2 grid-2--equal">
+      <div class="card">
+        <h3>Servicio con ceremonia</h3>
+        <p>
+          Ideal para familias que desean una despedida tradicional o contemporánea con un servicio formal.
+          Incluye el cuidado de su ser querido, ataúd de línea clásica, uso de capilla de velación y una ceremonia
+          que puede personalizarse con música, lecturas y mensajes.
+        </p>
+        <ul>
+          <li>Velación en nuestro hogar funerario o lugar de su elección</li>
+          <li>Cremación o inhumación posterior en el cementerio o crematorio elegido</li>
+          <li>Acompañamiento del cortejo fúnebre y coordinación del servicio</li>
+        </ul>
+        <p class="muted">
+          Podemos ofrecerle un presupuesto detallado, incluyendo los costos de terceros (panteones, crematorios, etc.).
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Cremación sencilla sin ceremonia</h3>
+        <p>
+          Para quienes prefieren una despedida más discreta. Incluye la recolección y el cuidado del cuerpo,
+          cremación sin servicio público y entrega de las cenizas a la familia.
+        </p>
+        <ul>
+          <li>Retiro del cuerpo en domicilio, clínica u hospital</li>
+          <li>Cremación directa sin presencia de dolientes</li>
+          <li>Entrega de las cenizas en urna básica</li>
+        </ul>
+        <p class="muted">
+          Usted puede organizar una ceremonia privada en casa o en otro lugar y momento, según sus deseos.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Memoriales y recordatorios</h3>
+        <p>
+          Le ayudamos a crear un homenaje duradero a la vida de su ser querido:
+        </p>
+        <ul>
+          <li>Urnas y relicarios</li>
+          <li>Placas conmemorativas y lápidas</li>
+          <li>Arreglos florales y velas personalizadas</li>
+          <li>Libros de condolencias y recordatorios impresos</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHERE TO FIND US -->
+  <section>
+    <h2>Dónde encontrarnos</h2>
+    <div class="grid-2">
+      <div class="card">
+        <h3>Contacto</h3>
+        <p>
+          <strong>Teléfono 24 horas:</strong> [TELÉFONO PRINCIPAL]<br />
+          <strong>WhatsApp:</strong> [NÚMERO WHATSAPP]<br />
+          <strong>Correo electrónico:</strong> [CORREO ELECTRÓNICO]
+        </p>
+        <h3>Nuestra dirección</h3>
+        <p>
+          [CALLE Y NÚMERO]<br />
+          [COLONIA]<br />
+          [CÓDIGO POSTAL, CIUDAD, ESTADO]
+        </p>
+        <p class="muted">
+          Nos encontramos cerca de [PUNTO DE REFERENCIA]. Hay estacionamiento disponible para las familias y visitantes.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Horarios de oficina</h3>
+        <ul class="list-unstyled hours-list">
+          <li><span>Lunes</span><span>09:00 – 18:00</span></li>
+          <li><span>Martes</span><span>09:00 – 18:00</span></li>
+          <li><span>Miércoles</span><span>09:00 – 18:00</span></li>
+          <li><span>Jueves</span><span>09:00 – 18:00</span></li>
+          <li><span>Viernes</span><span>09:00 – 18:00</span></li>
+          <li><span>Sábado</span><span>10:00 – 14:00</span></li>
+          <li><span>Domingo</span><span>Cerrado (atención telefónica 24/7)</span></li>
+        </ul>
+        <p class="muted" style="margin-top:8px;">
+          Si desea visitarnos fuera de estos horarios, podemos agendar una cita previa según su necesidad.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUPPORTING YOU -->
+  <section>
+    <h2>Le apoyamos en cada etapa</h2>
+    <div class="grid-2 grid-2--equal">
+      <div class="card">
+        <h3>Qué hacer cuando alguien fallece</h3>
+        <p>
+          Es normal sentirse abrumado y no saber por dónde empezar. Le orientamos en los primeros pasos:
+          certificación del fallecimiento, obtención del acta de defunción y trámites básicos ante las autoridades
+          y el Registro Civil.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Planear un funeral</h3>
+        <p>
+          Le ayudamos a elegir el tipo de servicio, la música, lecturas, flores y todos los detalles de la ceremonia,
+          para que sea un recuerdo fiel de la vida de su ser querido.
+        </p>
+      </div>
+      <div class="card">
+        <h3>El día del servicio</h3>
+        <p>
+          Nuestro equipo se encargará de coordinar el cortejo fúnebre, la entrada al templo o capilla, la ceremonia
+          y el traslado al panteón o crematorio, manteniéndole informado en todo momento.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section>
+    <h2>Preguntas frecuentes</h2>
+
+    <div class="faq-item">
+      <h4>¿Qué hago primero cuando fallece un ser querido?</h4>
+      <p>
+        Si el fallecimiento ocurre en casa, hospital o clínica, lo primero es contactar al médico o institución
+        de salud para que emitan el certificado de defunción. Después puede llamarnos y le guiaremos con los
+        siguientes pasos y la recolección del cuerpo.
+      </p>
+    </div>
+
+    <div class="faq-item">
+      <h4>¿Tengo que agendar una cita para ir a la funeraria?</h4>
+      <p>
+        Puede visitarnos dentro de nuestros horarios de oficina sin cita previa. Sin embargo, recomendamos
+        agendar una visita para asegurar que uno de nuestros asesores pueda atenderle con el tiempo que usted necesita.
+      </p>
+    </div>
+
+    <div class="faq-item">
+      <h4>¿Qué son los costos de terceros?</h4>
+      <p>
+        Además de nuestro servicio funerario, hay cargos que pertenecen a otras entidades, como panteones,
+        crematorios, servicios religiosos o trámites oficiales. Nosotros podemos gestionarlos por usted y
+        presentarle un presupuesto claro y detallado.
+      </p>
+    </div>
+
+    <div class="faq-item">
+      <h4>¿Ofrecen avisos de defunción o esquelas?</h4>
+      <p>
+        Sí. Podemos ayudarle a publicar esquelas en medios impresos o digitales, así como a crear avisos
+        personalizados para compartir entre familia y amigos por redes sociales o mensajería.
+      </p>
+    </div>
+
+    <div class="faq-item">
+      <h4>¿Cómo funcionan los planes de previsión funeraria?</h4>
+      <p>
+        Un plan de previsión le permite dejar su servicio funerario organizado y pagado con anticipación,
+        protegiendo a su familia de decisiones difíciles y gastos inesperados en el futuro.
+      </p>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section>
+    <h2>Nuestras reseñas</h2>
+    <p class="muted">
+      Las opiniones de las familias que nos han confiado la despedida de sus seres queridos nos ayudan a mejorar
+      cada día.
+    </p>
+
+    <div class="reviews-grid">
+      <div class="card">
+        <div class="review-name">María G.<span class="badge">5★</span></div>
+        <div class="review-date">Abril 2025</div>
+        <p>
+          “Gracias por el trato tan humano que recibimos. Nos explicaron todo con paciencia y se aseguraron
+          de que cada detalle fuera como mi papá lo hubiera querido.”
+        </p>
+      </div>
+      <div class="card">
+        <div class="review-name">Familia Rodríguez<span class="badge">5★</span></div>
+        <div class="review-date">Febrero 2025</div>
+        <p>
+          “Desde la primera llamada nos sentimos acompañados. El equipo fue muy respetuoso y considerado
+          durante la velación y la ceremonia.”
+        </p>
+      </div>
+      <div class="card">
+        <div class="review-name">José L.<span class="badge">5★</span></div>
+        <div class="review-date">Octubre 2024</div>
+        <p>
+          “Agradecemos su apoyo con todos los trámites y el traslado. La despedida fue muy digna y la familia
+          se sintió en paz.”
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
+
+</body>
+</html>
